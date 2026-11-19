@@ -13,7 +13,7 @@
 
 Enterprise ERP systems (such as Oracle Fusion and Oracle EBS) store critical SKU lifecycles, component thicknesses, and multi-layered Bill of Materials (BOM) specifications inside rigid relational schemas. When teams rely on manual lookups or static exports, product configuration errors and QA holds slow down production.
 
-**Enterprise Catalog MCP Server** bridges structured enterprise catalog data with agentic AI workflows. Built on Anthropic's open **Model Context Protocol (MCP)** using `FastMCP`, it exposes deterministic query and engineering validation tools so **Claude Desktop** (or any MCP-compliant agent framework, including Cursor, VS Code Copilot, Gemini, or OpenAI Agents) can inspect SKU data and enforce manufacturing tolerances autonomously.
+**Enterprise Catalog MCP Server** bridges structured enterprise catalog data with agentic AI workflows. Built on Anthropic's open **Model Context Protocol (MCP)** using `MCPServer`, it exposes deterministic query and engineering validation tools so **Claude Desktop** (or any MCP-compliant agent framework, including Cursor, VS Code Copilot, Gemini, or OpenAI Agents) can inspect SKU data and enforce manufacturing tolerances autonomously.
 
 ---
 
@@ -30,7 +30,7 @@ User Prompt in Claude Desktop / MCP Client
   │
   ▼  [stdio Transport]
 ┌──────────────────────────────────────────────────────────────┐
-│  Enterprise Catalog MCP Server (server.py / FastMCP)         │
+│  Enterprise Catalog MCP Server (server.py / MCPServer)       │
 │                                                              │
 │  ├── Tool 1: search_catalog()                                │
 │  │     Filters SKUs by category, lifecycle status, or layers │
@@ -134,3 +134,5 @@ Once connected to Claude Desktop, try asking:
 **Sean David Wilda** — AI Solutions Builder & Oracle ERP Systems Specialist  
 * [GitHub](https://github.com)
 * [LinkedIn](https://linkedin.com)
+## 📸 Live Demo
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/9eedf04b-300c-4aeb-bf01-1a63ff139c7b" />
