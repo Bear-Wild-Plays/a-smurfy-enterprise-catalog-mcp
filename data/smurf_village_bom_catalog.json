@@ -1,1 +1,110 @@
-
+[
+  {
+    "sku_id": "SMF-HND-CLK-128",
+    "item_name": "Handy Smurf Automated Acorn Harvester (8-Layer Assembly)",
+    "lifecycle_status": "ACTIVE_PRODUCTION",
+    "erp_source": "Oracle Fusion Cloud SCM",
+    "colloquial_aliases": [
+      "that shiny round thing that wobbles",
+      "Handy's noisy nut cracker",
+      "clockwork acorn contraption"
+    ],
+    "category": "Village Hardware",
+    "max_assembly_thickness_mm": 18.50,
+    "bom_layers": [
+      {
+        "layer": 1,
+        "component_sku": "CMP-OAK-CHS-01",
+        "description": "Reinforced Forest Oak Chassis Plate",
+        "material": "Hardwood",
+        "thickness_mm": 6.20
+      },
+      {
+        "layer": 2,
+        "component_sku": "CMP-BRS-GER-04",
+        "description": "Precision Brass Escapement Gear Train",
+        "material": "Brass",
+        "thickness_mm": 4.80
+      },
+      {
+        "layer": 3,
+        "component_sku": "CMP-SAP-SHD-09",
+        "description": "Gargamel-Proof Protective Resin Coating",
+        "material": "Polymer Resin",
+        "thickness_mm": 2.10
+      },
+      {
+        "layer": 4,
+        "component_sku": "CMP-FEL-DMP-02",
+        "description": "Moss-Fiber Acoustic Vibration Damper",
+        "material": "Organic Felt",
+        "thickness_mm": 3.90
+      }
+    ]
+  },
+  {
+    "sku_id": "SMF-BRY-PST-256",
+    "item_name": "Reserve Smurfberry Festival Glaze & Paste (Sealed Jar)",
+    "lifecycle_status": "ACTIVE_PRODUCTION",
+    "erp_source": "Oracle EBS R12",
+    "colloquial_aliases": [
+      "that sweet red berry paste from two summers ago",
+      "Greedy's secret festival jam",
+      "triple-distilled smurfberry reduction"
+    ],
+    "category": "Provisions & Apothecary",
+    "max_assembly_thickness_mm": 12.00,
+    "bom_layers": [
+      {
+        "layer": 1,
+        "component_sku": "CMP-CLY-JAR-11",
+        "description": "Fired River-Clay Containment Vessel",
+        "material": "Ceramic",
+        "thickness_mm": 5.50
+      },
+      {
+        "layer": 2,
+        "component_sku": "CMP-BRY-GEL-88",
+        "description": "Concentrated Sun-Cured Smurfberry Paste",
+        "material": "Organic Extract",
+        "thickness_mm": 4.20
+      },
+      {
+        "layer": 3,
+        "component_sku": "CMP-WAX-SEL-03",
+        "description": "Beeswax Airtight Tamper Seal",
+        "material": "Beeswax",
+        "thickness_mm": 1.80
+      }
+    ]
+  },
+  {
+    "sku_id": "SMF-PAP-GRD-999",
+    "item_name": "Papa Smurf Experimental Fog-Screen Lantern",
+    "lifecycle_status": "QA_HOLD_THICKNESS_EXCEEDED",
+    "erp_source": "Oracle Fusion Cloud SCM",
+    "colloquial_aliases": [
+      "the smoky blue bottle that hisses",
+      "Papa's emergency escape mist",
+      "glowing cellar vial"
+    ],
+    "category": "Alchemical Defense",
+    "max_assembly_thickness_mm": 10.00,
+    "bom_layers": [
+      {
+        "layer": 1,
+        "component_sku": "CMP-QRT-SHL-07",
+        "description": "Thickened Quartz Pressure Housing",
+        "material": "Mineral Quartz",
+        "thickness_mm": 6.40
+      },
+      {
+        "layer": 2,
+        "component_sku": "CMP-MTH-COR-12",
+        "description": "Phosphorescent Moth-Dust Core",
+        "material": "Alchemical Compound",
+        "thickness_mm": 4.50
+      }
+    ]
+  }
+]
