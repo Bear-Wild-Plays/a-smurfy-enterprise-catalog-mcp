@@ -1,4 +1,4 @@
-# 🗂️ Enterprise Catalog MCP Server (`enterprise-catalog-mcp`)
+# 🗂️ Enterprise Catalog MCP Server to find what you Smurfed (`enterprise-catalog-mcp`)
 
 **A Smurf Village Edition of a Python Model Context Protocol (MCP) server enabling AI agents to query, audit, and validate structured enterprise product catalogs and multi-layer Bill of Materials (BOM) schemas to assist Brainy and Handy Smurf locate items for the Smurf Village.**
 
